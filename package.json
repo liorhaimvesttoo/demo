@@ -20,7 +20,7 @@
     "db:seed": "tsx src/plugins/utils/db/seed-db.ts",
     "db:studio": "drizzle-kit studio",
     "db:studio-v": "drizzle-kit studio --verbose",
-    "dev": "next dev --turbo",
+    "dev": "next dev --turbo -p 3005",
     "dev:email": "email dev",
     "dev:no-turbo": "next dev",
     "email": "email dev --dir src/data/mail -p 3001",
