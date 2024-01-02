@@ -21,7 +21,6 @@ import { TRPC } from "~/core/trpc/react";
 import { seo } from "~/data/meta";
 import { fullURL } from "~/data/meta/builder";
 import { ReactHotToasts } from "~/islands/application/overlays/notifications/react-hot-toast";
-import LoglibAnalytics from "~/islands/loglib-analytics";
 import AuthProvider from "~/islands/providers/auth-provider";
 import { TailwindScreens } from "~/islands/providers/indicators/tailwind-indicator";
 import { NextThemesProvider } from "~/islands/providers/theme-provider";
@@ -159,7 +158,6 @@ export default async function LocaleLayout({
               </ZustandProvider>
             </TooltipProvider>
             <TailwindScreens />
-            <LoglibAnalytics />
           </NextThemesProvider>
         </TRPC>
       </body>
